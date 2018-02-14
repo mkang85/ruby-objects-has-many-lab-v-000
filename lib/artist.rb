@@ -28,6 +28,6 @@ class Artist
       while i < @songs.length
         i += 1
       end
-      @@song_count << i
+      @@song_count = i
     end
 end

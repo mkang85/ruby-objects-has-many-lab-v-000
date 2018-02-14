@@ -24,7 +24,9 @@ class Artist
     @@song_count = 0
 
     def self.song_count
-    @@song_count += @songs.length
-    @@song_count
+      if add_song(song)
+        @@song_count += 1
+      end
+      @@song_count
     end
 end

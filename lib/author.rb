@@ -20,9 +20,9 @@ class Author
   end
 
   @@post_count = 0
-  
+
   def self.post_count
     @@post_count
   end
-  
+
 end

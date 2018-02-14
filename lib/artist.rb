@@ -25,7 +25,7 @@ class Artist
 
     def self.song_count
       i = 0
-      while i < @songs.length
+      while i < @songs.size
         i += 1
       end
       @@song_count += i
